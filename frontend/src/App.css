@@ -1,0 +1,180 @@
+/* BITBUILDER ERP Website Styles */
+
+/* Remove default App center alignment */
+.App {
+    text-align: left;
+}
+
+/* Hero section background pattern */
+.hero-pattern {
+    background-image: radial-gradient(circle at 1px 1px, rgba(79, 70, 229, 0.05) 1px, transparent 0);
+    background-size: 40px 40px;
+}
+
+/* Feature card hover glow */
+.feature-card:hover {
+    box-shadow: 0 20px 40px rgba(79, 70, 229, 0.1);
+}
+
+/* Industry card overlay */
+.industry-card-overlay {
+    background: linear-gradient(to top, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0.4) 50%, transparent 100%);
+}
+
+/* Testimonial card */
+.testimonial-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Button animations */
+.btn-primary {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(79, 70, 229, 0.3);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+/* Navigation link hover effect */
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #4f46e5;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Dashboard preview card */
+.dashboard-preview {
+    background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+    border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+/* Pricing card popular badge */
+.popular-badge {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* FAQ accordion custom styles */
+.faq-item {
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+/* Calendar custom styles */
+.calendar-day-selected {
+    background-color: #4f46e5 !important;
+    color: white !important;
+}
+
+/* Form input focus */
+.form-input:focus {
+    outline: none;
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+/* Stats counter animation */
+@keyframes countUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.stat-item {
+    animation: countUp 0.5s ease-out forwards;
+}
+
+/* Mobile menu transition */
+.mobile-menu {
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+/* Sticky header shadow on scroll */
+.header-scrolled {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Bento grid feature items */
+.bento-item-large {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.bento-item-wide {
+    grid-column: span 2;
+}
+
+.bento-item-tall {
+    grid-row: span 2;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .bento-item-large,
+    .bento-item-wide {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+/* Loading spinner */
+.spinner {
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: white;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Toast custom styles */
+.toast-success {
+    background-color: #10b981;
+    color: white;
+}
+
+.toast-error {
+    background-color: #ef4444;
+    color: white;
+}
