@@ -13,7 +13,6 @@ import {
   Smartphone,
   CheckCircle2,
   ArrowRight,
-  Star,
   Zap,
   Clock,
   HeadphonesIcon,
@@ -83,27 +82,18 @@ const HomePage = () => {
     { icon: Settings, title: "Customizable Modules", desc: "Tailor-made for your needs" },
   ];
 
-  const testimonials = [
+  const whyDirect = [
     {
-      name: "Michael Chen",
-      role: "Hospital Administrator",
-      image: "https://images.unsplash.com/photo-1629507208649-70919ca33793?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMG1hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc3MzIyMjkzMHww&ixlib=rb-4.1.0&q=85",
-      quote: "BITBUILDER ERP transformed how we manage patient records. The efficiency gains have been remarkable.",
-      rating: 5
+      title: "You Talk Directly to the Developer",
+      desc: "No sales layer, no account managers passing messages — your requirements go straight to the person building your system."
     },
     {
-      name: "Sarah Johnson",
-      role: "Retail Chain Owner",
-      image: "https://images.unsplash.com/photo-1581065178047-8ee15951ede6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMG1hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc3MzIyMjkwOHww&ixlib=rb-4.1.0&q=85",
-      quote: "Managing inventory across 5 stores was a nightmare until we found BITBUILDER. Now it's effortless.",
-      rating: 5
+      title: "Built on Real Production Experience",
+      desc: "Backed by hands-on experience with ASP.NET Core, SQL Server, and multi-tenant SaaS architecture (see the HOS project)."
     },
     {
-      name: "David Park",
-      role: "Gym Owner",
-      image: "https://images.unsplash.com/photo-1556157382-97eda2d62296?w=400",
-      quote: "The membership management and class scheduling features have helped us grow our gym by 40%.",
-      rating: 5
+      title: "Customized to Your Business, Not a Template",
+      desc: "Every industry module is adapted to how your business actually works — not a one-size-fits-all package."
     },
   ];
 
@@ -135,9 +125,9 @@ const HomePage = () => {
   ];
 
   const stats = [
-    { value: "10,000+", label: "Active Users" },
-    { value: "500+", label: "Businesses" },
-    { value: "99.9%", label: "Uptime" },
+    { value: "1-on-1", label: "Direct with Builder" },
+    { value: "6+", label: "Industry Modules" },
+    { value: ".NET", label: "Enterprise-Grade Stack" },
     { value: "24/7", label: "Support" },
   ];
 
@@ -395,45 +385,33 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Testimonials Section */}
+      {/* Why Work Directly Section */}
       <section className="py-20 lg:py-32" data-testid="testimonials-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="inline-block px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium mb-4">
-              TESTIMONIALS
+              WHY BITBUILDER
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-              Trusted by Business Leaders
+              Why Work Directly With the Builder
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              See what our customers say about their experience with BITBUILDER ERP.
+              BITBUILDER is founder-led — every project is personally built and supported, not outsourced.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
+            {whyDirect.map((item, index) => (
               <div 
                 key={index}
-                data-testid={`testimonial-card-${index}`}
+                data-testid={`why-direct-card-${index}`}
                 className="testimonial-card bg-white p-8 rounded-2xl border border-slate-100 shadow-soft"
               >
-                <div className="flex gap-1 mb-4">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                  ))}
+                <div className="w-10 h-10 bg-indigo-100 rounded-xl flex items-center justify-center mb-4">
+                  <CheckCircle2 className="w-5 h-5 text-indigo-600" />
                 </div>
-                <p className="text-slate-600 mb-6 leading-relaxed">"{testimonial.quote}"</p>
-                <div className="flex items-center gap-4">
-                  <img 
-                    src={testimonial.image} 
-                    alt={testimonial.name}
-                    className="w-12 h-12 rounded-full object-cover"
-                  />
-                  <div>
-                    <p className="font-semibold text-slate-900">{testimonial.name}</p>
-                    <p className="text-sm text-slate-500">{testimonial.role}</p>
-                  </div>
-                </div>
+                <h3 className="font-semibold text-slate-900 mb-2">{item.title}</h3>
+                <p className="text-slate-600 leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
