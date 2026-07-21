@@ -11,6 +11,7 @@ import AboutPage from "@/pages/AboutPage";
 import ContactPage from "@/pages/ContactPage";
 import CalcifyPage from "./pages/CalcifyPage.jsx";
 import OurProductsPage from "./pages/OurProductsPage.jsx";
+import CaseStudyPage from "./pages/CaseStudyPage.jsx";
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/calcify" element={<CalcifyPage />} />
             <Route path="/our-products" element={<OurProductsPage />} /> 
+            <Route path="/case-study" element={<CaseStudyPage />} />
+  
           </Routes>
         </main>
         <Footer />
