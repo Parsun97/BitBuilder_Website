@@ -38,37 +38,10 @@ const AboutPage = () => {
   ];
 
   const stats = [
-    { value: "10,000+", label: "Active Users", icon: Users },
-    { value: "500+", label: "Businesses Served", icon: Award },
-    { value: "15+", label: "Countries", icon: Globe },
-    { value: "99.9%", label: "Uptime", icon: Clock },
-  ];
-
-  const team = [
-    {
-      name: "Alex Thompson",
-      role: "Founder & CEO",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
-      bio: "15+ years in enterprise software"
-    },
-    {
-      name: "Sarah Chen",
-      role: "CTO",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400",
-      bio: "Former Google engineer"
-    },
-    {
-      name: "Michael Park",
-      role: "Head of Product",
-      image: "https://images.unsplash.com/photo-1556157382-97eda2d62296?w=400",
-      bio: "Product leader at 3 startups"
-    },
-    {
-      name: "Emily Rodriguez",
-      role: "Head of Customer Success",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400",
-      bio: "10+ years in customer experience"
-    },
+    { value: "3.5+", label: "Years of Dev Experience", icon: Award },
+    { value: "6+", label: "Industry ERP Modules", icon: Globe },
+    { value: "1-on-1", label: "Founder-Led Support", icon: Users },
+    { value: "24/7", label: "Support Availability", icon: Clock },
   ];
 
   return (
@@ -196,41 +169,35 @@ const AboutPage = () => {
         </div>
       </section>
 
-      {/* Team Section */}
+      {/* Founder Section */}
       <section className="py-20 lg:py-32 bg-slate-50" data-testid="team-section">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="inline-block px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium mb-4">
-              OUR TEAM
+              FOUNDER-LED
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-              Meet the People Behind BITBUILDER
+              The Person Behind BITBUILDER
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              Our diverse team brings together decades of experience in software, 
-              business operations, and customer success.
+              No sales team, no middlemen — you work directly with the developer building your system.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {team.map((member, index) => (
-              <div 
-                key={index}
-                data-testid={`team-member-${index}`}
-                className="bg-white rounded-2xl overflow-hidden border border-slate-100 hover:-translate-y-1 transition-transform"
-              >
-                <img 
-                  src={member.image} 
-                  alt={member.name}
-                  className="w-full aspect-square object-cover"
-                />
-                <div className="p-6">
-                  <h3 className="font-bold text-slate-900 mb-1">{member.name}</h3>
-                  <p className="text-indigo-600 text-sm font-medium mb-2">{member.role}</p>
-                  <p className="text-slate-500 text-sm">{member.bio}</p>
-                </div>
-              </div>
-            ))}
+          <div className="bg-white rounded-2xl border border-slate-100 p-8 lg:p-12 flex flex-col lg:flex-row items-center gap-10">
+            <div className="w-40 h-40 rounded-2xl bg-indigo-100 flex items-center justify-center flex-shrink-0">
+              <span className="text-4xl font-bold text-indigo-600">PK</span>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold text-slate-900 mb-1">Founder & Developer</h3>
+              <p className="text-indigo-600 text-sm font-medium mb-4">Full-Stack .NET Developer</p>
+              <p className="text-slate-600 leading-relaxed">
+                3.5+ years building production systems with ASP.NET Core, C#, SQL Server, 
+                React and Angular — including a multi-tenant SaaS backend (HOS) built from 
+                the ground up. BITBUILDER ERP is designed and built personally, module by 
+                module, for each client's real needs.
+              </p>
+            </div>
           </div>
         </div>
       </section>
