@@ -175,7 +175,7 @@ const ContactPage = () => {
               </div>
               <div>
                 <p className="text-sm text-slate-500">Email Us</p>
-                <p className="font-medium text-slate-900">contact@bitbuilder.com</p>
+                <p className="font-medium text-slate-900">prashunkumar97@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center gap-4 p-6 bg-slate-50 rounded-xl">
@@ -184,7 +184,7 @@ const ContactPage = () => {
               </div>
               <div>
                 <p className="text-sm text-slate-500">Call Us</p>
-                <p className="font-medium text-slate-900">+1 (234) 567-890</p>
+                <p className="font-medium text-slate-900">+91 9774958232</p>
               </div>
             </div>
             <div className="flex items-center gap-4 p-6 bg-slate-50 rounded-xl">
@@ -193,7 +193,7 @@ const ContactPage = () => {
               </div>
               <div>
                 <p className="text-sm text-slate-500">Visit Us</p>
-                <p className="font-medium text-slate-900">123 Business Ave</p>
+                <p className="font-medium text-slate-900">Karnal Namaste Chowk</p>
               </div>
             </div>
             <div className="flex items-center gap-4 p-6 bg-slate-50 rounded-xl">
@@ -202,7 +202,7 @@ const ContactPage = () => {
               </div>
               <div>
                 <p className="text-sm text-slate-500">Working Hours</p>
-                <p className="font-medium text-slate-900">Mon-Fri, 9AM-6PM</p>
+                <p className="font-medium text-slate-900">Mon-Sat, 9AM-6PM</p>
               </div>
             </div>
           </div>
