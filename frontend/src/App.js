@@ -10,6 +10,7 @@ import PricingPage from "@/pages/PricingPage";
 import AboutPage from "@/pages/AboutPage";
 import ContactPage from "@/pages/ContactPage";
 import CalcifyPage from "./pages/CalcifyPage.jsx";
+import OurProductsPage from "./pages/OurProductsPage.jsx";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/calcify" element={<CalcifyPage />} />
+            <Route path="/our-products" element={<OurProductsPage />} /> 
           </Routes>
         </main>
         <Footer />
