@@ -19,8 +19,10 @@ const PricingPage = () => {
       name: "Starter",
       icon: Zap,
       description: "Perfect for small businesses getting started",
-      monthlyPrice: 49,
-      annualPrice: 39,
+      monthlyPrice: 2999,
+      annualPrice: 2499,
+      monthlyPriceUsd: 36,
+      annualPriceUsd: 30,
       features: [
         { name: "Up to 5 users", included: true },
         { name: "Basic Dashboard", included: true },
@@ -40,8 +42,10 @@ const PricingPage = () => {
       name: "Professional",
       icon: Building2,
       description: "Best for growing businesses with more needs",
-      monthlyPrice: 99,
-      annualPrice: 79,
+      monthlyPrice: 5999,
+      annualPrice: 4999,
+      monthlyPriceUsd: 72,
+      annualPriceUsd: 60,
       features: [
         { name: "Up to 20 users", included: true },
         { name: "Advanced Dashboard", included: true },
@@ -91,7 +95,7 @@ const PricingPage = () => {
     },
     {
       question: "What payment methods do you accept?",
-      answer: "We accept all major credit cards, bank transfers, and support local payment methods in various countries."
+      answer: "We accept UPI, bank transfers, and all major debit/credit cards."
     },
     {
       question: "Do you offer refunds?",
@@ -178,11 +182,14 @@ const PricingPage = () => {
                     {plan.monthlyPrice ? (
                       <>
                         <span className="text-4xl font-bold">
-                          ${isAnnual ? plan.annualPrice : plan.monthlyPrice}
+                          ₹{isAnnual ? plan.annualPrice : plan.monthlyPrice}
                         </span>
                         <span className={`text-sm ${plan.popular ? 'text-indigo-100' : 'text-slate-500'}`}>
                           /month
                         </span>
+                        <p className={`text-sm mt-1 ${plan.popular ? 'text-indigo-200' : 'text-slate-400'}`}>
+                          (~${isAnnual ? plan.annualPriceUsd : plan.monthlyPriceUsd}/month)
+                        </p>
                         {isAnnual && (
                           <p className={`text-sm mt-1 ${plan.popular ? 'text-indigo-100' : 'text-slate-500'}`}>
                             Billed annually
