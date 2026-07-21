@@ -93,10 +93,10 @@ const ContactPage = () => {
       return;
     }
     
-    if (!demoForm.booking_time) {
-      toast.error("Please select a time slot");
-      return;
-    }
+   // if (!demoForm.booking_time) {
+    //  toast.error("Please select a time slot");
+   //   return;
+  //  }
 
     setSubmitting(true);
     try {
