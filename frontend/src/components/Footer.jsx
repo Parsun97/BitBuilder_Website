@@ -93,18 +93,18 @@ export const Footer = () => {
                 className="flex items-center gap-3 text-slate-400 hover:text-white transition-colors"
               >
                 <Mail className="w-5 h-5" />
-                contact@bitbuilder.com
+               prashunkumar97@gmail.com
               </a>
               <a 
-                href="tel:+1234567890" 
+                href="tel:+9774958232" 
                 className="flex items-center gap-3 text-slate-400 hover:text-white transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                +1 (234) 567-890
+                +91 9774958232
               </a>
               <p className="flex items-center gap-3 text-slate-400">
                 <MapPin className="w-5 h-5" />
-                123 Business Ave, Tech City
+               Karnal Namaste Chowk
               </p>
             </div>
           </div>
