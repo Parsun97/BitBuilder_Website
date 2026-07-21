@@ -28,6 +28,7 @@ export const Navbar = () => {
     { name: "Industries", path: "/industries" },
     { name: "Pricing", path: "/pricing" },
     { name: "About", path: "/about" },
+    { name: "Case Study", path: "/case-study" },
   ];
 
   const isActive = (path) => location.pathname === path;
