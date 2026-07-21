@@ -21,6 +21,7 @@ export const Footer = () => {
       { name: "Industries", path: "/industries" },
       { name: "Pricing", path: "/pricing" },
       { name: "Book Demo", path: "/contact" },
+      { name: "Our Other Products", path: "/our-products" },
     ],
     company: [
       { name: "About Us", path: "/about" },
