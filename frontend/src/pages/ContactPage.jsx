@@ -536,7 +536,7 @@ const ContactPage = () => {
           <div className="bg-slate-200 rounded-2xl h-80 flex items-center justify-center">
             <div className="text-center">
               <MapPin className="w-12 h-12 text-slate-400 mx-auto mb-4" />
-              <p className="text-slate-500 font-medium">123 Business Avenue, Tech City, TC 12345</p>
+              <p className="text-slate-500 font-medium">Namaste Chowk, Karnal</p>
               <p className="text-slate-400 text-sm mt-2">Map integration coming soon</p>
             </div>
           </div>
