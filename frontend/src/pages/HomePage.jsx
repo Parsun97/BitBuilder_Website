@@ -489,5 +489,9 @@ const HomePage = () => {
     </div>
   );
 };
-
+<!-- NeuroDesk AI Widget -->
+<script>
+  window.NeuroDeskConfig = { botId: 3 };
+</script>
+<script src="http://localhost:8080/api/widget.js" async></script>
 export default HomePage;
