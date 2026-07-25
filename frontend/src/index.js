@@ -9,8 +9,4 @@ root.render(
     <App />
   </React.StrictMode>,
 );
-<!-- NeuroDesk AI Widget -->
-<script>
-  window.NeuroDeskConfig = { botId: 3 };
-</script>
-<script src="http://localhost:8080/api/widget.js" async></script>
+ 
