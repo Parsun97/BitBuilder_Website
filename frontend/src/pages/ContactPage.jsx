@@ -152,13 +152,13 @@ const ContactPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <span className="inline-block px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium mb-6">
-              GET IN TOUCH
+              Get in touch
             </span>
             <h1 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-6">
-              Book a <span className="gradient-text">Free Demo</span> or Contact Us
+              Book a free demo, or just say hello
             </h1>
             <p className="text-lg text-slate-600">
-              See BITBUILDER ERP in action. Schedule a personalized demo or 
+              See bitbuilder ERP in action. Schedule a personalized demo or 
               reach out with any questions.
             </p>
           </div>

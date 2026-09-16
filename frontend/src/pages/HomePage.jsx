@@ -78,7 +78,7 @@ const HomePage = () => {
     { icon: Receipt, title: "Affordable Pricing", desc: "Plans that fit every budget" },
     { icon: Shield, title: "Secure Data Protection", desc: "Bank-grade encryption for your data" },
     { icon: Building2, title: "Cloud + Offline Support", desc: "Work anywhere, anytime" },
-    { icon: HeadphonesIcon, title: "24/7 Technical Support", desc: "We're always here to help" },
+    { icon: HeadphonesIcon, title: "Direct Support", desc: "Message the developer, not a ticket queue" },
     { icon: Settings, title: "Customizable Modules", desc: "Tailor-made for your needs" },
   ];
 
@@ -99,28 +99,28 @@ const HomePage = () => {
 
   const faqs = [
     {
-      question: "What is BITBUILDER ERP?",
-      answer: "BITBUILDER ERP is an all-in-one cloud-based business management software that helps organizations manage their operations efficiently. It includes modules for inventory, billing, HR, CRM, appointments, and more."
+      question: "What is bitbuilder ERP?",
+      answer: "bitbuilder ERP is an all-in-one cloud-based business management software that helps organizations manage their operations efficiently. It includes modules for inventory, billing, HR, CRM, appointments, and more."
     },
     {
-      question: "Which industries does BITBUILDER support?",
-      answer: "BITBUILDER supports multiple industries including hospitals, schools, gyms, salons, restaurants, and retail businesses. Each industry gets specialized features tailored to their specific needs."
+      question: "Which industries does bitbuilder support?",
+      answer: "bitbuilder supports multiple industries including hospitals, schools, gyms, salons, restaurants, and retail businesses. Each industry gets specialized features tailored to their specific needs."
     },
     {
-      question: "Is my data secure with BITBUILDER?",
+      question: "Is my data secure with bitbuilder?",
       answer: "Absolutely! We use bank-grade encryption and secure cloud infrastructure to protect your data. Regular backups and multi-factor authentication ensure your business information is always safe."
     },
     {
-      question: "Can I use BITBUILDER on mobile devices?",
-      answer: "Yes! BITBUILDER is fully responsive and works seamlessly on smartphones, tablets, and desktop computers. You can manage your business from anywhere, anytime."
+      question: "Can I use bitbuilder on mobile devices?",
+      answer: "Yes! bitbuilder is fully responsive and works seamlessly on smartphones, tablets, and desktop computers. You can manage your business from anywhere, anytime."
     },
     {
       question: "Do you offer a free trial?",
-      answer: "Yes, we offer a free demo where you can explore all features with our team. Book a demo to see how BITBUILDER can transform your business operations."
+      answer: "Yes — book a free demo and I'll walk you through the features live, no sales team in between. You'll see exactly how bitbuilder ERP fits your operations before you commit to anything."
     },
     {
       question: "What kind of support do you provide?",
-      answer: "We provide 24/7 technical support via chat, email, and phone. Our dedicated team is always ready to help you with any questions or issues."
+      answer: "Support comes straight from me over chat, email or phone — no ticket queue or outsourced call centre. Response times depend on the plan you're on, which we'll agree upfront."
     },
   ];
 
@@ -128,7 +128,7 @@ const HomePage = () => {
     { value: "1-on-1", label: "Direct with Builder" },
     { value: "6+", label: "Industry Modules" },
     { value: ".NET", label: "Enterprise-Grade Stack" },
-    { value: "24/7", label: "Support" },
+    { value: "Fast", label: "Response Time" },
   ];
 
   return (
@@ -144,12 +144,12 @@ const HomePage = () => {
                 All-in-One Business Solution
               </span>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight mb-6">
-                BITBUILDER ERP – <span className="gradient-text">One Software</span> to Manage Your Entire Business
+                One system to run your hospital, school, gym or shop
               </h1>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                Powerful cloud-based ERP software for hospitals, schools, gyms, 
-                salons, restaurants and businesses. Streamline operations, boost 
-                productivity, and grow your business.
+                bitbuilder ERP is cloud-based business software for hospitals,
+                schools, gyms, salons and restaurants — built and supported
+                directly by the developer, not a sales team.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contact">
@@ -255,7 +255,7 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="inline-block px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium mb-4">
-              POWERFUL FEATURES
+              Powerful features
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
               Everything You Need to Run Your Business
@@ -306,7 +306,7 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="inline-block px-4 py-2 bg-orange-100 text-orange-700 rounded-full text-sm font-medium mb-4">
-              INDUSTRY SOLUTIONS
+              Industry solutions
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
               Tailored Solutions for Every Industry
@@ -354,13 +354,13 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="inline-block px-4 py-2 bg-indigo-500/20 text-indigo-300 rounded-full text-sm font-medium mb-4">
-              WHY BITBUILDER
+              What you get
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              Why Choose BITBUILDER ERP?
+              Why choose bitbuilder ERP?
             </h2>
             <p className="text-lg text-slate-400 max-w-2xl mx-auto">
-              Join thousands of businesses who trust BITBUILDER to power their operations.
+              Every plan ships with the same standard: clean engineering, honest pricing and a direct line to the person who built it.
             </p>
           </div>
 
@@ -390,13 +390,13 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="inline-block px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium mb-4">
-              WHY BITBUILDER
+              The bitbuilder difference
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-              Why Work Directly With the Builder
+              Why work directly with the builder
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              BITBUILDER is founder-led — every project is personally built and supported, not outsourced.
+              bitbuilder is founder-led — every project is personally built and supported, not outsourced.
             </p>
           </div>
 
@@ -460,8 +460,8 @@ const HomePage = () => {
             Ready to Transform Your Business?
           </h2>
           <p className="text-xl text-indigo-100 mb-8">
-            Join thousands of businesses already using BITBUILDER ERP. 
-            Start your free demo today.
+            Book a free demo and see how a founder-led build could work for
+            your business — no sales calls, just a straight conversation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/contact">

@@ -115,13 +115,13 @@ const FeaturesPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <span className="inline-block px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium mb-6">
-              FEATURES
+              Features
             </span>
             <h1 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-6">
-              Powerful Features to <span className="gradient-text">Grow Your Business</span>
+              Everything your operations need, in one system
             </h1>
             <p className="text-lg text-slate-600 mb-8">
-              From inventory management to customer relationships, BITBUILDER ERP 
+              From inventory management to customer relationships, bitbuilder ERP 
               provides all the tools you need to streamline operations and boost productivity.
             </p>
             <Link to="/contact">
@@ -205,7 +205,7 @@ const FeaturesPage = () => {
               And Much More...
             </h2>
             <p className="text-lg text-slate-600">
-              Discover all the features that make BITBUILDER ERP the complete business solution.
+              Discover all the features that make bitbuilder ERP the complete business solution.
             </p>
           </div>
 
@@ -237,7 +237,7 @@ const FeaturesPage = () => {
             Ready to Experience These Features?
           </h2>
           <p className="text-xl text-indigo-100 mb-8">
-            Book a free demo and see how BITBUILDER ERP can transform your business.
+            Book a free demo and see how bitbuilder ERP can transform your business.
           </p>
           <Link to="/contact">
             <Button 

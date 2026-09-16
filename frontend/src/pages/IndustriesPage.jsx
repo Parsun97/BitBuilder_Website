@@ -124,7 +124,7 @@ const IndustriesPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <span className="inline-block px-4 py-2 bg-orange-100 text-orange-700 rounded-full text-sm font-medium mb-6">
-              INDUSTRY SOLUTIONS
+              Industry solutions
             </span>
             <h1 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-6">
               Tailored ERP Solutions for <span className="text-orange-500">Every Industry</span>
@@ -220,7 +220,7 @@ const IndustriesPage = () => {
             Don't See Your Industry?
           </h2>
           <p className="text-xl text-slate-400 mb-8">
-            BITBUILDER ERP is highly customizable. Contact us to discuss how we can 
+            bitbuilder ERP is highly customizable. Contact us to discuss how we can 
             create a solution tailored to your specific industry needs.
           </p>
           <Link to="/contact">

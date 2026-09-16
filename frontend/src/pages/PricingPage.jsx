@@ -110,10 +110,10 @@ const PricingPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <span className="inline-block px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium mb-6">
-              PRICING
+              Pricing
             </span>
             <h1 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-6">
-              Simple, Transparent <span className="gradient-text">Pricing</span>
+              Pricing that's simple to read and simple to pay
             </h1>
             <p className="text-lg text-slate-600 mb-8">
               Choose the plan that fits your business. All plans include a 14-day free trial.

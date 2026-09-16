@@ -38,10 +38,10 @@ const AboutPage = () => {
   ];
 
   const stats = [
-    { value: "3.5+", label: "Years of Dev Experience", icon: Award },
+    { value: "2.5+", label: "Years of Dev Experience", icon: Award },
     { value: "6+", label: "Industry ERP Modules", icon: Globe },
     { value: "1-on-1", label: "Founder-Led Support", icon: Users },
-    { value: "24/7", label: "Support Availability", icon: Clock },
+    { value: "Direct", label: "Support Access", icon: Clock },
   ];
 
   return (
@@ -52,13 +52,13 @@ const AboutPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <span className="inline-block px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium mb-6">
-                ABOUT US
+                About bitbuilder
               </span>
               <h1 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-6">
-                Empowering Businesses with <span className="gradient-text">Smart Software</span>
+                Software built by the person who runs it
               </h1>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                BITBUILDER was founded with a simple mission: to make powerful business 
+                bitbuilder was founded with a simple mission: to make powerful business 
                 management software accessible to companies of all sizes. We believe that 
                 every business deserves the tools to operate efficiently and grow sustainably.
               </p>
@@ -138,7 +138,7 @@ const AboutPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="inline-block px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium mb-4">
-              OUR VALUES
+              Our values
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
               What Drives Us
@@ -174,10 +174,10 @@ const AboutPage = () => {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="inline-block px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium mb-4">
-              FOUNDER-LED
+              Founder-led
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-              The Person Behind BITBUILDER
+              The Person Behind bitbuilder
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
               No sales team, no middlemen — you work directly with the developer building your system.
@@ -192,9 +192,9 @@ const AboutPage = () => {
               <h3 className="text-xl font-bold text-slate-900 mb-1">Founder & Developer</h3>
               <p className="text-indigo-600 text-sm font-medium mb-4">Full-Stack .NET Developer</p>
               <p className="text-slate-600 leading-relaxed">
-                3.5+ years building production systems with ASP.NET Core, C#, SQL Server, 
+                2.5+ years building production systems with ASP.NET Core, C#, SQL Server, 
                 React and Angular — including a multi-tenant SaaS backend (HOS) built from 
-                the ground up. BITBUILDER ERP is designed and built personally, module by 
+                the ground up. bitbuilder ERP is designed and built personally, module by 
                 module, for each client's real needs.
               </p>
             </div>
@@ -209,7 +209,7 @@ const AboutPage = () => {
             Ready to Join Our Journey?
           </h2>
           <p className="text-xl text-indigo-100 mb-8">
-            Experience the BITBUILDER difference. Book a demo and see how we can 
+            Experience the bitbuilder difference. Book a demo and see how we can 
             help transform your business operations.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

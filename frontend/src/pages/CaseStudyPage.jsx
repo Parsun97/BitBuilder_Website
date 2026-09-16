@@ -49,15 +49,15 @@ const CaseStudyPage = () => {
       <section className="bg-gradient-to-br from-indigo-50 via-white to-white py-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <span className="inline-block px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium mb-6">
-            CASE STUDY
+            Case study
           </span>
           <h1 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-6">
-            HOS — From a Single Hospital System to a <span className="gradient-text">Multi-Tenant SaaS Backend</span>
+            HOS: rebuilding a single hospital system into a multi-tenant SaaS backend
           </h1>
           <p className="text-lg text-slate-600 leading-relaxed max-w-3xl">
             HOS started as a hospital/room management system and was rebuilt into a
             multi-tenant SaaS backend capable of powering multiple industries — the
-            same architecture behind BITBUILDER ERP.
+            same architecture behind bitbuilder ERP.
           </p>
         </div>
       </section>
@@ -89,7 +89,7 @@ const CaseStudyPage = () => {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="inline-block px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium mb-4">
-              THE PROBLEM &amp; APPROACH
+              The problem &amp; approach
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
               Why It Was Built This Way
@@ -121,7 +121,7 @@ const CaseStudyPage = () => {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <span className="inline-block px-4 py-2 bg-indigo-500/20 text-indigo-300 rounded-full text-sm font-medium mb-4">
-              TECH STACK
+              Tech stack
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">Built On</h2>
           </div>
@@ -144,7 +144,7 @@ const CaseStudyPage = () => {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <span className="inline-block px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium mb-4">
-              WHERE IT STANDS
+              Where it stands
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
               Actively Built, Actively Used
@@ -156,7 +156,7 @@ const CaseStudyPage = () => {
             </div>
             <p className="text-slate-600 leading-relaxed">
               HOS is the backend already wired to a school management ERP built in Angular,
-              and its multi-tenant architecture is what BITBUILDER's industry ERP modules
+              and its multi-tenant architecture is what bitbuilder's industry ERP modules
               (hospital, school, gym, salon, restaurant, retail) are designed to build on top of.
               Want to see it in action for your industry? Book a walkthrough below.
             </p>
