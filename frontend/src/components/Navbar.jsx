@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X, ChevronDown } from "lucide-react";
+import logoIcon from "@/assets/logo-icon.png";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -46,10 +47,14 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2" data-testid="logo">
-            <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center">
-              <span className="text-white font-bold text-xl">B</span>
-            </div>
-            <span className="text-xl font-bold text-slate-900">BITBUILDER</span>
+              <img
+                src={logoIcon}
+                alt="bitbuilder"
+                className="w-10 h-10 rounded-xl object-contain"
+                width={40}
+                height={40}
+              />
+              <span className="text-xl font-bold text-slate-900">BITBUILDER</span>
           </Link>
 
           {/* Desktop Navigation */}
