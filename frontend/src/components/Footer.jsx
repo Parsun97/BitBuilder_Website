@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import logoIcon from "@/assets/logo-icon.png";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -77,12 +78,16 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
           {/* Brand Column */}
           <div className="lg:col-span-2">
-            <Link to="/" className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center">
-                <span className="text-white font-bold text-xl">B</span>
-              </div>
-              <span className="text-xl font-bold">BITBUILDER</span>
-            </Link>
+            <Link to="/" className="flex items-center gap-2" data-testid="logo">
+  <img
+    src={logoIcon}
+    alt="bitbuilder"
+    className="w-10 h-10 rounded-xl object-contain"
+    width={40}
+    height={40}
+  />
+  <span className="text-xl font-bold">BITBUILDER</span>
+</Link>
             <p className="text-slate-400 mb-6 leading-relaxed">
               Powerful cloud-based ERP software for hospitals, schools, gyms, 
               salons, restaurants and businesses. One software to manage your 
